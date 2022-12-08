@@ -1,0 +1,35 @@
+.container{
+    color:rgb(17, 122, 221);
+    font-size: 30px;
+}
+
+body{
+    background-color: rgb(72, 70, 75);
+    border: 3px;
+}
+
+.container p {
+    color: black;
+    float:left;
+}
+
+.example{
+    margin:4cm;
+    padding: 45px;
+}
+
+#header{
+    color: brown;
+}
+Input [type="text"]{
+    font-size: 30px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20cm;
+}
+button{
+    color: #ddd;
+    size: 20px;
+    background-color: black;
+
+}
