@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+h1{
+    background-color: rgb(218, 86, 34);
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+
+}
+p{
+    color: rgb(0, 0, 0);
+    background-color: rgb(146, 151, 144);
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
