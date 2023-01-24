@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Kavoon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: url('ok.jpg');
+    /* background-color: black; */
+    border: 4px rgb(42, 45, 61) double;
+    width: 4cm;
+    height: auto;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    border: 5px groove rgb(99, 4, 4);
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+ul {
+    line-height: 20vh;
+}
+
+body {
+    background-image: url('ok.jpg');
+
+    /* background-color: rgb(37, 37, 37); */
+
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    background-image: url('ok.jpg');
+    background-color: rgb(26, 25, 25);
+    width: 50vw;
+    height: 100vh;
+}
+
+.infoContainer {
+    width: 40vw;
+    height: 32vh;
+    margin: 144px auto;
+}
+
+.info {
+    line-height: 65px;
+    margin-left: 5px;
+    border: 5px inset;
+    border-color: rgb(70, 71, 71);
+    border-radius: 3px;
+}
+
+.hi {
+    font-family: 'Kavoon', cursive;
+    font-size: 35px;
+    color: rgb(74, 77, 87);
+
+}
+
+.name {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: rgb(154, 139, 79);
+    border: 4px rgb(144, 151, 76) ridge;
+}
+
+.buttons button {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px rgb(170, 81, 21) outset;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    background-color: rgb(58, 70, 59);
+    color: rgb(240, 82, 8);
+    line-height: 20px;
+}
+
+.buttons button:hover {
+    font-size: 20px;
+    background-color: rgb(235, 176, 15);
+    color: rgb(192, 8, 8);
+    border-color: rgb(240, 93, 8);
+    border: dotted;
+}
+
+.photo {
+    display: flex;
+}
+
+.photo img {
+    height: 200px;
+    
+}
